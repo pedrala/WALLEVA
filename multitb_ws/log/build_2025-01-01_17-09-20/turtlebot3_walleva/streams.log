@@ -1,0 +1,113 @@
+[0.011s] Invoking command in '/home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/viator/turtlebot3_ws/install/turtlebot3_teleop:/home/viator/turtlebot3_ws/install/turtlebot3_example:/home/viator/ws/ros_ws/install/visualservoing:/home/viator/ws/ros_ws/install/urdf_tutorial:/home/viator/ws/ros_ws/install/rokey:/home/viator/ws/ros_ws/install/example:/home/viator/ws/ros_ws/install/dsr_tests:/home/viator/ws/ros_ws/install/dsr_bringup2:/home/viator/ws/ros2_ws/install/ros_study_py:/home/viator/ws/ros2_ws/install/ex_calculator:/home/viator/ws/ros2_ws/install/py_pubsub:/home/viator/ws/ros2_ws/install/point_cloud:/home/viator/ws/ros2_ws/install/hough_transform:/home/viator/ws/b3p1_ws/install/pizza_serving_bot:/opt/ros/humble /usr/bin/cmake /home/viator/ws/walleva_ws/multitb_ws/src/turtlebot3_walleva -DCMAKE_INSTALL_PREFIX=/home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.211s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.556s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.848s] -- Configuring done
+[0.850s] -- Generating done
+[0.853s] -- Build files have been written to: /home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva
+[0.859s] Invoked command in '/home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/viator/turtlebot3_ws/install/turtlebot3_teleop:/home/viator/turtlebot3_ws/install/turtlebot3_example:/home/viator/ws/ros_ws/install/visualservoing:/home/viator/ws/ros_ws/install/urdf_tutorial:/home/viator/ws/ros_ws/install/rokey:/home/viator/ws/ros_ws/install/example:/home/viator/ws/ros_ws/install/dsr_tests:/home/viator/ws/ros_ws/install/dsr_bringup2:/home/viator/ws/ros2_ws/install/ros_study_py:/home/viator/ws/ros2_ws/install/ex_calculator:/home/viator/ws/ros2_ws/install/py_pubsub:/home/viator/ws/ros2_ws/install/point_cloud:/home/viator/ws/ros2_ws/install/hough_transform:/home/viator/ws/b3p1_ws/install/pizza_serving_bot:/opt/ros/humble /usr/bin/cmake /home/viator/ws/walleva_ws/multitb_ws/src/turtlebot3_walleva -DCMAKE_INSTALL_PREFIX=/home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva
+[0.863s] Invoking command in '/home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/viator/turtlebot3_ws/install/turtlebot3_teleop:/home/viator/turtlebot3_ws/install/turtlebot3_example:/home/viator/ws/ros_ws/install/visualservoing:/home/viator/ws/ros_ws/install/urdf_tutorial:/home/viator/ws/ros_ws/install/rokey:/home/viator/ws/ros_ws/install/example:/home/viator/ws/ros_ws/install/dsr_tests:/home/viator/ws/ros_ws/install/dsr_bringup2:/home/viator/ws/ros2_ws/install/ros_study_py:/home/viator/ws/ros2_ws/install/ex_calculator:/home/viator/ws/ros2_ws/install/py_pubsub:/home/viator/ws/ros2_ws/install/point_cloud:/home/viator/ws/ros2_ws/install/hough_transform:/home/viator/ws/b3p1_ws/install/pizza_serving_bot:/opt/ros/humble /usr/bin/cmake --build /home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva -- -j4 -l4
+[0.910s] Invoked command in '/home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/viator/turtlebot3_ws/install/turtlebot3_teleop:/home/viator/turtlebot3_ws/install/turtlebot3_example:/home/viator/ws/ros_ws/install/visualservoing:/home/viator/ws/ros_ws/install/urdf_tutorial:/home/viator/ws/ros_ws/install/rokey:/home/viator/ws/ros_ws/install/example:/home/viator/ws/ros_ws/install/dsr_tests:/home/viator/ws/ros_ws/install/dsr_bringup2:/home/viator/ws/ros2_ws/install/ros_study_py:/home/viator/ws/ros2_ws/install/ex_calculator:/home/viator/ws/ros2_ws/install/py_pubsub:/home/viator/ws/ros2_ws/install/point_cloud:/home/viator/ws/ros2_ws/install/hough_transform:/home/viator/ws/b3p1_ws/install/pizza_serving_bot:/opt/ros/humble /usr/bin/cmake --build /home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva -- -j4 -l4
+[0.926s] Invoking command in '/home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/viator/turtlebot3_ws/install/turtlebot3_teleop:/home/viator/turtlebot3_ws/install/turtlebot3_example:/home/viator/ws/ros_ws/install/visualservoing:/home/viator/ws/ros_ws/install/urdf_tutorial:/home/viator/ws/ros_ws/install/rokey:/home/viator/ws/ros_ws/install/example:/home/viator/ws/ros_ws/install/dsr_tests:/home/viator/ws/ros_ws/install/dsr_bringup2:/home/viator/ws/ros2_ws/install/ros_study_py:/home/viator/ws/ros2_ws/install/ex_calculator:/home/viator/ws/ros2_ws/install/py_pubsub:/home/viator/ws/ros2_ws/install/point_cloud:/home/viator/ws/ros2_ws/install/hough_transform:/home/viator/ws/b3p1_ws/install/pizza_serving_bot:/opt/ros/humble /usr/bin/cmake --install /home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva
+[0.934s] -- Install configuration: ""
+[0.934s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch
+[0.934s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/gazebo_multi_custom.launch.py
+[0.934s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/gazebo_multi_nav2_world.launch.py
+[0.934s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/nav2_bringup
+[0.934s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/nav2_bringup/bringup_launch.py
+[0.934s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/nav2_bringup/localization_launch.py
+[0.935s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/nav2_bringup/navigation_launch.py
+[0.935s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/nav2_bringup/rviz_launch.py
+[0.935s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/nav2_bringup/slam_launch.py
+[0.935s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/gazebo_walleva.launch.py
+[0.935s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//launch/gazebo_multi_world.launch.py
+[0.935s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_burger
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_burger/meshes
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_burger/meshes/tire.dae
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_burger/meshes/burger_base.dae
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_burger/meshes/lds.dae
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_burger/model.config
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_burger/model-1_4.sdf
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_burger/model.sdf
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/meshes
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/meshes/tire.dae
+[0.937s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/meshes/r200.dae
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/meshes/waffle_base.dae
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/meshes/lds.dae
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/model.config
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/model-1_4.sdf
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/model_nocamera.sdf
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle/model.sdf
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/meshes
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/meshes/tire.dae
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/meshes/r200.dae
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/meshes/waffle_base.dae
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/meshes/lds.dae
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/model.config
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/model-1_4.sdf
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/model_nocamera.sdf
+[0.938s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_with_basket/model.sdf
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle_pi
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle_pi/model.config
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_waffle_pi/model.sdf
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/meshes
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/meshes/tire.dae
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/meshes/r200.dae
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/meshes/waffle_base.dae
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/meshes/lds.dae
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/model.config
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/model-1_4.sdf
+[0.939s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/model_nocamera.sdf
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//models/turtlebot3_manipulation/model.sdf
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//rviz
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//rviz/nav2_default_view.rviz
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//rviz/multi_nav2_default_view.rviz
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//rviz/turtlebot3_manipulation.rviz
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//urdf
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//urdf/turtlebot3_burger.urdf
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//urdf/turtlebot3_waffle.urdf
+[0.940s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//urdf/turtlebot3_manipulation.urdf
+[0.941s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//urdf/turtlebot3_with_basket.urdf
+[0.941s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//urdf/turtlebot3_waffle_pi.urdf
+[0.941s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//urdf/common_properties.urdf
+[0.941s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//urdf/turtlebot3_manipulation.urdf.xacro
+[0.941s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//worlds
+[0.941s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//worlds/multi_custom_world.world
+[0.941s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//worlds/multi_robot_world.world
+[0.942s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//worlds/multi_empty_world.world
+[0.942s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//worlds/park.world
+[0.942s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//params
+[0.942s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva//params/nav2_params.yaml
+[0.942s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/environment/multi_robot.dsv
+[0.942s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/ament_index/resource_index/package_run_dependencies/turtlebot3_walleva
+[0.942s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/ament_index/resource_index/parent_prefix_path/turtlebot3_walleva
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/environment/ament_prefix_path.sh
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/environment/ament_prefix_path.dsv
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/environment/path.sh
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/environment/path.dsv
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/local_setup.bash
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/local_setup.sh
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/local_setup.zsh
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/local_setup.dsv
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/package.dsv
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/ament_index/resource_index/packages/turtlebot3_walleva
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/cmake/turtlebot3_wallevaConfig.cmake
+[0.943s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/cmake/turtlebot3_wallevaConfig-version.cmake
+[0.944s] -- Installing: /home/viator/ws/walleva_ws/multitb_ws/install/turtlebot3_walleva/share/turtlebot3_walleva/package.xml
+[0.946s] Invoked command in '/home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/viator/turtlebot3_ws/install/turtlebot3_teleop:/home/viator/turtlebot3_ws/install/turtlebot3_example:/home/viator/ws/ros_ws/install/visualservoing:/home/viator/ws/ros_ws/install/urdf_tutorial:/home/viator/ws/ros_ws/install/rokey:/home/viator/ws/ros_ws/install/example:/home/viator/ws/ros_ws/install/dsr_tests:/home/viator/ws/ros_ws/install/dsr_bringup2:/home/viator/ws/ros2_ws/install/ros_study_py:/home/viator/ws/ros2_ws/install/ex_calculator:/home/viator/ws/ros2_ws/install/py_pubsub:/home/viator/ws/ros2_ws/install/point_cloud:/home/viator/ws/ros2_ws/install/hough_transform:/home/viator/ws/b3p1_ws/install/pizza_serving_bot:/opt/ros/humble /usr/bin/cmake --install /home/viator/ws/walleva_ws/multitb_ws/build/turtlebot3_walleva
