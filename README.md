@@ -17,7 +17,7 @@ Captures
 <img src="capture/walleva_navi2.png" alt="walleva_nav2" width="1000">
 
 
-How to excecute
+How to execute
 ====================
 1. multitb_ws
 
