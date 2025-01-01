@@ -1,0 +1,4 @@
+[console_scripts]
+move_to_goal = move_to_goal.move_to_goal:main
+move_to_goal_3 = move_to_goal.move_to_goal_3:main
+
