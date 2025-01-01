@@ -9,7 +9,7 @@ Ref Repo
 https://github.com/arshadlab/turtlebot3_multi_robot/
 ```
 
-Captures
+Capture
 ============
 ## GUI 실행모습
 <img src="capture/walleva_gui.png" alt="walleva_gui" width="1000">
