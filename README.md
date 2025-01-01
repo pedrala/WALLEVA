@@ -4,6 +4,7 @@ Description
 
 Ref Repo
 ============
+2개 이상의 AMR봇을 rviz, gazebo 에서 스폰하기 위해 아래 리포지토리를 참조하였습니다.
 ```console
 https://github.com/arshadlab/turtlebot3_multi_robot/
 ```
