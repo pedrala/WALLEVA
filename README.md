@@ -2,13 +2,12 @@ Description
 ===================
 AMR robots linking with ros2, gazebo, and rviz2 to collect trash around a park
 
-
-Capture
+Image Example
 ============
 <img src="capture/walleva_gui.png" alt="walleva_gui" width="1000">
 <img src="capture/walleva_urdf_modify.png" alt="walleva_urdf_modify" width="1000">
 <img src="capture/walleva_navigation.png" alt="walleva_navigation" width="1000">
-<img src="capture/walleva_nav2.png" alt="walleva_nav2" width="1000">
+<img src="capture/walleva_navi2.png" alt="walleva_nav2" width="1000">
 
 
 How to excecute
