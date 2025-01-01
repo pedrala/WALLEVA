@@ -1,4 +1,0 @@
-[console_scripts]
-gui_server = dual_bot.gui_server:main
-gui_server_3 = dual_bot.gui_server_3:main
-
