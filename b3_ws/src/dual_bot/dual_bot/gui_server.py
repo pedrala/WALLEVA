@@ -19,9 +19,9 @@ import cv2
 import numpy as np
 import json
 import os
-from PySide2.QtCore import *
-from PySide2.QtWidgets import *
-from PySide2.QtGui import *
+# from PySide2.QtCore import *
+# from PySide2.QtWidgets import *
+# from PySide2.QtGui import *
 from geometry_msgs.msg import PoseWithCovarianceStamped
 import yaml
 import PIL.Image
@@ -43,11 +43,14 @@ class GUIserver(QMainWindow):
         self.eve_status = "Idle"
         
         # Map related initialization
-        self.map_image_path = '/home/viator/ws/walleva_ws/map/map.pgm'
+        self.map_image_path = '/home/viator/ws/walleva_ws/map/map.pgm' 
         self.map_yaml_path = '/home/viator/ws/walleva_ws/map/map.yaml'
         self.load_map()
-        self.amcl_pose_x = 0
-        self.amcl_pose_y = 0
+        
+        self.amcl_pose_x_wall_e = 0
+        self.amcl_pose_y_wall_e = 0
+        self.amcl_pose_x_eve = 0
+        self.amcl_pose_y_eve = 0
         self.dot_size = 2
         
         # qos
@@ -68,10 +71,10 @@ class GUIserver(QMainWindow):
             10
         )
         
-        # subscriber
+        # turtlebot3_manipulation 
         self.sub_wall_e_eye_image = self.node.create_subscription(
             Image,
-            "/tb1/camera/image_raw",
+            "/tb1/pi_camera1/image_raw",
             self.wall_e_eye_image_callback,
             qos
         )
@@ -81,6 +84,7 @@ class GUIserver(QMainWindow):
             self.amcl_pose_callback_wall_e,
             10
         )
+        # turtlebot3_with_basket 
         self.sub_global_eye_eve = self.node.create_subscription(
             PoseWithCovarianceStamped,
             "/tb2/amcl_pose",
@@ -89,7 +93,7 @@ class GUIserver(QMainWindow):
         )
         self.sub_eve_eye_image = self.node.create_subscription(
             Image,
-            "/tb2/camera/image_raw",
+            "/tb1/pi_camera2/image_raw",
             self.eve_eye_image_callback,
             qos
         )
@@ -171,13 +175,13 @@ class GUIserver(QMainWindow):
     def amcl_pose_callback_wall_e(self, msg):
         self.amcl_pose_x_wall_e = msg.pose.pose.position.x
         self.amcl_pose_y_wall_e = msg.pose.pose.position.y
-        # self.node.get_logger().info(f'Received AMCL pose: x={self.amcl_pose_x}, y={self.amcl_pose_y}')
+        self.node.get_logger().info(f'Received AMCL pose: x={self.amcl_pose_x_wall_e}, y={self.amcl_pose_y_wall_e}')
         self.update_minimap()
     
     def amcl_pose_callback_eve(self, msg):
         self.amcl_pose_x_eve = msg.pose.pose.position.x
         self.amcl_pose_y_eve = msg.pose.pose.position.y
-        # self.node.get_logger().info(f'Received AMCL pose: x={self.amcl_pose_x}, y={self.amcl_pose_y}')
+        self.node.get_logger().info(f'Received AMCL pose: x={self.amcl_pose_x_eve}, y={self.amcl_pose_y_eve}')
         self.update_minimap()
     
     def update_minimap(self):
